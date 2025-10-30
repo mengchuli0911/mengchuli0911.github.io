@@ -1,0 +1,7 @@
+main:
+  - title: "About me"
+    url: /
+  - title: "CV"
+    url: /cv/
+  - title: "Publications"
+    url: /publications/
