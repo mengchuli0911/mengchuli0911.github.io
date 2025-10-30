@@ -16,9 +16,9 @@
 title: " Mengchu Li"
 email:
 url: "https://axiom997.github.io"
-baseurl: ""
+baseurl: "/homepage"
 description: >- # this means to ignore newlines until "baseurl:"
-  Google search test.
+  "Mengchu Li's academic homepage. "
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
