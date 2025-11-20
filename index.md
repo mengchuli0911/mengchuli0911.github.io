@@ -18,9 +18,9 @@ I am a fifth-year PhD student in the [School of Mathematical Sciences](https://m
 
 ## Preprints
 
-- ***MMP for generalized foliated threefolds of rank one***. arXiv preprint. (submitted) [arXiv](https://arxiv.org/abs/2506.23708)
+- ***MMP for generalized foliated threefolds of rank one***. arXiv preprint. [arXiv preprint](https://arxiv.org/abs/2506.23708). 2025. To appear in Manuscripta Math.
 
-- ***Volume of algebraically integrable foliations and locally stable families***. joint with Jingjun Han, Junpeng Jiao, Jihao Liu. To appear in Trans. Amer. Math. Soc. [arXiv](https://arxiv.org/abs/2406.16604)
+- ***Volume of algebraically integrable foliations and locally stable families***. joint with Jingjun Han, Junpeng Jiao, Jihao Liu. [arXiv preprint](https://arxiv.org/abs/2406.16604). 2024. To appear in Trans. Amer. Math. Soc. 
 
 
 
