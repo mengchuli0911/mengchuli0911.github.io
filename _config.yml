@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: " Mengchu Li"
+title: "Mengchu Li's Homepage"
 email:
 url: "https://mengchuli0911.github.io"
 baseurl: 
-description: "Mengchu Li's academic homepage. "
+description: "I am a fifth-year Ph.D. student in pure mathematics at Fudan University, under the supervision of Prof. Meng Chen. "
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
