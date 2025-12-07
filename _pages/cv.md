@@ -46,6 +46,7 @@ toc_icon: "file"
 ## Awards & Grants
 
 <ul style="font-size: 0.8em;">
+  <li> National Scholarship for Doctoral Students, Dec. 2025 </li>
   <li> China Scholarship Council Scholarship, Jul. 2023 </li>
   <li> Fudan Elite PhD Program Scholarship, Fudan University, 2020-2026</li>
 </ul>
