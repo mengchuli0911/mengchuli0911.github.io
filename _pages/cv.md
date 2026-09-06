@@ -24,7 +24,7 @@ toc_icon: "file"
     </tr>
     <tr>
       <td><strong>Email</strong></td>
-      <td><a href="mailto:mengchuli21@m.fudan.edu.cn">mengchuli21@m.fudan.edu.cn</a> <br> <a href="mailto:mengchuli0911@gmail.com">mengchuli0911@gmail.com</a></td>
+      <td><a href="mailto:mengchuli@zju.edu.cn">mengchuli@zju.edu.cn</a> <br> <a href="mailto:mengchuli0911@gmail.com">mengchuli0911@gmail.com</a></td>
     </tr>
     <tr>
       <td><strong>Homepage</strong></td>
