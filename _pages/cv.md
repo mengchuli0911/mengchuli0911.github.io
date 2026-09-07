@@ -61,7 +61,6 @@ toc_icon: "file"
 <ul style="font-size: 0.8em;">
   <li>Chinese (Native)</li>
   <li>English (Proficient, C1 level)</li>
-  <li>French (Beginner)</li>
 </ul>
 
 ## Skills & Interests
