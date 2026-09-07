@@ -8,7 +8,7 @@ sidebar:
     - image: "assets/images/head-photo.jpg"
     - text: <p style="font-size:0.5em; font-style:italic; text-align:right;" >Anjihai Grand Canyon, Xinjiang, China <br> July 2025</p>
     - title: Mengchu Li
-    - text:  1901, Guanghua East Main Tower <br> Handan Campus, Fudan University <br> Shanghai, China
+    - text:  Room 822, Building 2, Hainayuan <br> Zijingang Campus, Zhejiang University <br> Hangzhou, Zhejiang, China
     - text:  <a href="mailto:mengchuli21@m.fudan.edu.cn" target ="_blank" ><i class="fas fa-envelope"></i></a> <a href="https://github.com/mengchuli0911" target ="_blank" ><i class="fab fa-github"></i></a>
 classes: wide
 
