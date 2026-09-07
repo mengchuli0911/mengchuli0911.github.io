@@ -33,11 +33,14 @@ toc_icon: "file"
   </tbody>
 </table>
 
+## Work
+
+| Sep. 2026 - Present <br> <span style="font-size:0.7em;"><i class="fas fa-location-dot"></i> *Hangzhou, China* </span>| **Postdoctoral Researcher** <br> School of Mathematical Sciences, Zhejiang University|
 
 
 ## Education
 
-| Sep. 2021 - Present <br> <span style="font-size:0.7em;"><i class="fas fa-location-dot"></i> *Shanghai, China* </span>| **PhD Candidate in Pure Mathematics** <br> School of Mathematical Sciences, Fudan University <br> *Advisor: Prof. [Meng Chen](https://faculty.fudan.edu.cn/chenmeng/zh_CN/index.htm)*|
+| Sep. 2021 - Jun. 2026 <br> <span style="font-size:0.7em;"><i class="fas fa-location-dot"></i> *Shanghai, China* </span>| **PhD in Pure Mathematics** <br> School of Mathematical Sciences, Fudan University <br> *Advisor: Prof. [Meng Chen](https://faculty.fudan.edu.cn/chenmeng/zh_CN/index.htm)*|
 | Jan. 2024 - Dec. 2024 <br> <span style="font-size:0.7em;"><i class="fas fa-location-dot"></i> *London, UK* </span>| **Visiting PhD Student** <br> Department of Mathematics, Imperial College London <br> *Hosted by Prof. [Paolo Cascini](https://mrwpl.github.io/paolo/index.html)*|
 | Sep. 2017 - Jun. 2021 <br> <span style="font-size:0.7em;"><i class="fas fa-location-dot"></i> *Shanghai, China* </span> | **B.S. in Mathematics and Applied Mathematics** <br> School of Mathematical Sciences, Fudan University|
 
