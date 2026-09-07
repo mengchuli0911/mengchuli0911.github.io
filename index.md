@@ -14,7 +14,7 @@ classes: wide
 
 ---
 
-I am a fifth-year PhD student in the [School of Mathematical Sciences](https://math.fudan.edu.cn) at Fudan University, specializing in birational geometry under the supervision of Prof. [Meng Chen](https://faculty.fudan.edu.cn/chenmeng/zh_CN/index.htm). Currently, I am working on problems related to the birational geometry of foliations, particularly the foliated minimal model program and other related topics. Here is my <a href="/assets/docs/mengchu_cv.pdf">CV</a>.
+I am currently a postdoctoral researcher at the [School of Mathematical Sciences](http://www.math.zju.edu.cn) at Zhejiang University. I received my PhD in Mathematics from Fudan University, under the supervision of Prof. [Meng Chen](https://faculty.fudan.edu.cn/chenmeng/zh_CN/index.htm). My research focuses on birational geometry, particularly the birational geometry of foliations and the foliated minimal model program. Here is my <a href="/assets/docs/mengchu_cv.pdf">CV</a>.
 
 ## Publications
 
