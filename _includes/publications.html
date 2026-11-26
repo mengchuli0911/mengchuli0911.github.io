@@ -1,5 +1,8 @@
 <div class="papers">
-{% for paper in site.data.publications %}
+{% assign preprints = site.data.publications | where: 'status', 'preprint' | sort: 'date' | reverse %}
+{% assign published = site.data.publications | where: 'status', 'published' | sort: 'date' | reverse %}
+{% assign ordered_papers = preprints | concat: published %}
+{% for paper in ordered_papers %}
 <article class="paper">
   <span class="year">{{ paper.year }}</span>
   <div><h3>{{ paper.title | escape }}</h3>

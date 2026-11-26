@@ -1,4 +1,6 @@
 - title: On the generalized foliated cone theorem of rank one
+  status: preprint
+  date: "2026-11-24"
   authors: Mengchu Li
   journal: Preprint
   details: "arXiv:2611.32733 (2026)"
@@ -8,6 +10,8 @@
     We prove the cone theorem for generalized foliated quadruples of rank one in arbitrary dimension. As an application, we prove the uniqueness of MMP outputs for log canonical generalized foliated quadruples of rank one.
 
 - title: MMP for generalized foliated threefolds of rank one
+  status: published
+  date: "2025-12-01"
   authors: Mengchu Li
   journal: manuscripta math.
   details: "176 (2025), Article 78"
@@ -18,6 +22,8 @@
     We establish the minimal model program (MMP) for generalized foliated threefolds (X, 𝓕, B, 𝐌) of rank 1, extending the result of Cascini and Spicer in [CS25d]. As an application of the generalized foliated MMP, we prove a base-point-free theorem for foliated triples on threefolds. We also prove the ACC for log canonical thresholds for generalized foliated threefolds of rank 1.
 
 - title: Volume of algebraically integrable foliations and locally stable families
+  status: published
+  date: "2026-07-23"
   authors: Jingjun Han, Junpeng Jiao, Mengchu Li, and Jihao Liu
   journal: Trans. Amer. Math. Soc.
   details: "379 (2026), no. 10, 6809–6832"

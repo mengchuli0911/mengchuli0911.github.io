@@ -5,7 +5,7 @@
 ## 内容维护
 
 - 首页介绍：编辑 `index.md`（Markdown）。
-- 论文：编辑 `_data/publications.yml`；首页和 Publications 页自动使用同一份列表，按文件顺序展示。`abstract` 字段保存摘要，仅在 Publications and preprints 页面显示折叠按钮；预印本无需填写 `doi`。
+- 论文：编辑 `_data/publications.yml`；首页和 Publications 页自动使用同一份列表，自动将预印本放在最前面，已发表文章按发表日期从新到旧排列；预印本之间也按日期倒序。每篇填写 `status: preprint` 或 `status: published`，以及带引号的 `date: "YYYY-MM-DD"`（已发表论文取首次在线发表日期，预印本取首次提交日期）。`year` 保持引用中使用的年份。`abstract` 字段保存摘要，仅在 Publications and preprints 页面显示折叠按钮；预印本无需填写 `doi`。
 - 姓名、邮箱、照片、地址与 CV 路径：编辑 `_data/profile.yml`。首页图标也在此维护：`instagram`、`bilibili`、`film`、`gallery` 填写完整链接；Instagram 和 bilibili 留空时隐藏，观影与摄影留空时显示不可点击的灰色预留项；Email 和 GitHub 使用 `email`、`github`。图标具有可读标签和悬停提示。
 - CV 页面内容：编辑 `_data/cv.yml`（经历、教育、奖项等）；布局为 `_layouts/cv.html`，页面入口为 `_pages/cv.md`；PDF 替换 `assets/docs/mengchu_cv.pdf`。
 - 导航：编辑 `_data/navigation.yml`。
