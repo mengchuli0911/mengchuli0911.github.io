@@ -1,0 +1,49 @@
+name: Mengchu Li
+chinese_name: 李濛初
+emails:
+  - mengchuli@zju.edu.cn
+  - mengchuli0911@gmail.com
+homepage: https://mengchuli0911.github.io
+work:
+  - dates: Sep. 2026 – Present
+    location: Hangzhou, China
+    title: Postdoctoral Researcher
+    institution: School of Mathematical Sciences, Zhejiang University
+education:
+  - dates: Sep. 2021 – Jun. 2026
+    location: Shanghai, China
+    title: PhD in Pure Mathematics
+    institution: School of Mathematical Sciences, Fudan University
+    note_label: Advisor
+    note_name: Prof. Meng Chen
+    note_url: https://faculty.fudan.edu.cn/chenmeng/zh_CN/index.htm
+  - dates: Jan. 2024 – Dec. 2024
+    location: London, UK
+    title: Visiting PhD Student
+    institution: Department of Mathematics, Imperial College London
+    note_label: Hosted by
+    note_name: Prof. Paolo Cascini
+    note_url: https://mrwpl.github.io/paolo/index.html
+  - dates: Sep. 2017 – Jun. 2021
+    location: Shanghai, China
+    title: B.S. in Mathematics and Applied Mathematics
+    institution: School of Mathematical Sciences, Fudan University
+awards:
+  - date: Dec. 2025
+    title: National Scholarship for Doctoral Students
+  - date: Jul. 2023
+    title: China Scholarship Council Scholarship
+  - date: 2020 - 2026
+    title: Fudan Elite PhD Program Scholarship
+    institution: Fudan University
+languages:
+  - Chinese (Native)
+  - English (Proficient, C1 level)
+skills:
+  - Python
+  - HTML
+  - LaTeX
+interests:
+  - Photography
+  - Video production
+  - Movies

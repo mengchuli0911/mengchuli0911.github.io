@@ -1,0 +1,14 @@
+---
+layout: default
+---
+{% assign cv = site.data.cv %}
+<article class="cv-page">
+<header class="cv-heading"><h1>Curriculum vitae</h1><a class="cv-download" href="{{ site.data.profile.cv | relative_url }}">Download PDF</a></header>
+<div class="cv-identity"><div><h2>{{ cv.name | escape }} <span lang="zh">{{ cv.chinese_name }}</span></h2><a class="cv-homepage" href="{{ cv.homepage }}">{{ cv.homepage | remove: 'https://' }}</a></div><div class="cv-emails">{% for email in cv.emails %}<a href="mailto:{{ email }}">{{ email }}</a>{% endfor %}</div></div>
+<section class="cv-section"><h2>Work</h2><div>{% include cv-experience.html entries=cv.work %}</div></section>
+<section class="cv-section"><h2>Education</h2><div>{% include cv-experience.html entries=cv.education %}</div></section>
+<section class="cv-section"><h2>Awards &amp; grants</h2><div>{% for award in cv.awards %}<div class="cv-entry cv-award"><span class="cv-period">{{ award.date | escape }}</span><div class="cv-detail"><h3>{{ award.title | escape }}</h3>{% if award.institution %}<p>{{ award.institution | escape }}</p>{% endif %}</div></div>{% endfor %}</div></section>
+<section class="cv-section cv-supplement"><h2>Languages</h2><ul>{% for language in cv.languages %}<li>{{ language | escape }}</li>{% endfor %}</ul></section>
+<section class="cv-section cv-supplement"><h2>Skills &amp; interests</h2><div><p>{{ cv.skills | join: ' · ' }}</p><p>{{ cv.interests | join: ', ' }}</p></div></section>
+{{ content }}
+</article>

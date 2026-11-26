@@ -1,0 +1,12 @@
+<div class="papers">
+{% for paper in site.data.publications %}
+<article class="paper">
+  <span class="year">{{ paper.year }}</span>
+  <div><h3>{{ paper.title | escape }}</h3>
+  <p class="authors">{{ paper.authors | escape }}</p>
+  <p class="journal"><em>{{ paper.journal | escape }}</em>, {{ paper.details | escape }}</p>
+  <div class="paper-links">{% if paper.arxiv %}<a href="{{ paper.arxiv }}">arXiv</a>{% endif %}{% if paper.doi %}<a href="{{ paper.doi }}">DOI</a>{% endif %}</div>
+  {% if include.show_abstract and paper.abstract %}<details class="paper-abstract"><summary>Abstract<span class="visually-hidden"> for {{ paper.title | escape }}</span></summary><p>{{ paper.abstract | escape }}</p></details>{% endif %}</div>
+</article>
+{% endfor %}
+</div>

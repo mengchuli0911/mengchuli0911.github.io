@@ -1,0 +1,6 @@
+{% for entry in include.entries %}
+<div class="cv-entry">
+  <div class="cv-period"><span>{{ entry.dates | escape }}</span><span class="cv-location">{{ entry.location | escape }}</span></div>
+  <div class="cv-detail"><h3>{{ entry.title | escape }}</h3><p>{{ entry.institution | escape }}</p>{% if entry.note_name %}<p class="cv-note">{{ entry.note_label | escape }}: <a href="{{ entry.note_url }}">{{ entry.note_name | escape }}</a></p>{% endif %}</div>
+</div>
+{% endfor %}

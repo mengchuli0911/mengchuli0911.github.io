@@ -1,0 +1,30 @@
+- title: On the generalized foliated cone theorem of rank one
+  authors: Mengchu Li
+  journal: Preprint
+  details: "arXiv:2611.32733 (2026)"
+  year: 2026
+  arxiv: https://arxiv.org/abs/2611.32733
+  abstract: >-
+    We prove the cone theorem for generalized foliated quadruples of rank one in arbitrary dimension. As an application, we prove the uniqueness of MMP outputs for log canonical generalized foliated quadruples of rank one.
+
+- title: MMP for generalized foliated threefolds of rank one
+  authors: Mengchu Li
+  journal: manuscripta math.
+  details: "176 (2025), Article 78"
+  year: 2025
+  arxiv: https://arxiv.org/abs/2506.23708
+  doi: https://doi.org/10.1007/s00229-025-01681-4
+  abstract: >-
+    We establish the minimal model program (MMP) for generalized foliated threefolds (X, 𝓕, B, 𝐌) of rank 1, extending the result of Cascini and Spicer in [CS25d]. As an application of the generalized foliated MMP, we prove a base-point-free theorem for foliated triples on threefolds. We also prove the ACC for log canonical thresholds for generalized foliated threefolds of rank 1.
+
+- title: Volume of algebraically integrable foliations and locally stable families
+  authors: Jingjun Han, Junpeng Jiao, Mengchu Li, and Jihao Liu
+  journal: Trans. Amer. Math. Soc.
+  details: "379 (2026), no. 10, 6809–6832"
+  year: 2026
+  arxiv: https://arxiv.org/abs/2406.16604
+  doi: https://doi.org/10.1090/tran/9740
+  abstract: >-
+    In this paper, we study the volume of algebraically integrable foliations and locally stable families. We show that, for any canonical algebraically integrable foliation, its volume belongs to a discrete set depending only on its rank and the volume of its general leaves. In particular, if the foliation is of general type, then its volume has a positive lower bound depending only on its rank and the volume of its general leaves. This implies some special cases of a question posed by Cascini, Hacon, and Langer.
+
+    As a consequence, we show that the relative volume of a stable family with a normal generic fiber belongs to a discrete set if the dimension and the volume of its general fibers are bounded. Log versions of the aforementioned theorems are also provided and proved.

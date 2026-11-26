@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<section class="intro">
+<div class="intro-copy"><h1>{{ site.data.profile.name }}</h1>
+<div class="bio">{{ content }}</div>
+
+</div>
+<figure><img src="{{ site.data.profile.photo | relative_url }}" alt="{{ site.data.profile.photo_alt | escape }}" width="7008" height="4672"><figcaption>{{ site.data.profile.photo_caption }}<br>{{ site.data.profile.photo_date }}</figcaption></figure>
+</section>
+<section class="publications"><h2>Publications and preprints</h2>{% include publications.html %}</section>
+<div class="contact">
+  <section aria-labelledby="address-heading"><h2 id="address-heading">Address</h2><address>{% for line in site.data.profile.address %}{{ line }}{% unless forloop.last %}<br>{% endunless %}{% endfor %}</address></section>
+  <section aria-labelledby="links-heading"><h2 id="links-heading">Links</h2>
+<div class="contact-links" aria-label="Contact and personal links">
+{% assign link_keys = 'email,github,instagram,bilibili,film,gallery' | split: ',' %}
+{% for key in link_keys %}
+  {% assign url = site.data.profile[key] %}
+    {% case key %}
+      {% when 'email' %}{% assign label = 'Email' %}{% if url and url != empty %}{% assign url = url | prepend: 'mailto:' %}{% endif %}
+      {% when 'github' %}{% assign label = 'GitHub' %}
+      {% when 'instagram' %}{% assign label = 'Instagram' %}
+      {% when 'bilibili' %}{% assign label = 'bilibili' %}
+      {% when 'film' %}{% assign label = 'Film log' %}
+      {% when 'gallery' %}{% assign label = 'Photography' %}
+    {% endcase %}
+  {% if url and url != empty %}
+    <a class="link-item" href="{{ url | escape }}" title="{{ label }}">{% include social-icon.html name=key %}<span>{{ label }}</span></a>
+  {% elsif key == 'film' or key == 'gallery' %}
+    <span class="link-item link-pending" title="{{ label }} — coming soon" aria-label="{{ label }} — coming soon">{% include social-icon.html name=key %}<span>{{ label }}</span></span>
+  {% endif %}
+{% endfor %}
+</div>
+  </section>
+</div>
