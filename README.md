@@ -12,6 +12,8 @@
 - 新增页面：在 `_pages` 新建 Markdown 文件，设置 `layout: page`、`title`、`permalink`，再添加导航条目即可。
 - 样式：`assets/css/site.css`；布局：`_layouts`。
 
+本地环境建议使用 Ruby 3.3 或 3.4、Bundler 2.7.2。macOS 自带的 Ruby 2.6 无法使用当前锁定的 Bundler；请先切换到现代 Ruby（可用 `ruby -v` 和 `bundle -v` 确认）。这只影响本地预览，GitHub Pages 使用其托管环境构建。
+
 本地预览（首次使用先运行 `bundle install`）：
 
 ```sh
@@ -35,7 +37,36 @@ bundle exec jekyll build
 
 输出目录为 `_site/`，只修改源码，不编辑或提交生成结果。依赖版本记录在 `Gemfile.lock` 中。
 
-本次修改尚未发布。上线前在 GitHub 仓库的 Settings → Pages 确认发布来源：如果从分支构建，选择包含这份 Jekyll 源码的分支根目录；如果使用 GitHub Actions，工作流需要构建 Jekyll 并部署 `_site/`。此仓库尚未添加部署工作流。
+### 手动推送
+
+本地项目已连接到 `https://github.com/mengchuli0911/mengchuli0911.github.io.git`，目标分支为 `main`。在已登录 GitHub 的终端或 Git 客户端中推送已有提交即可：
+
+```sh
+git push origin main
+```
+
+如果终端直连 GitHub 超时，而 VPN 使用系统代理，可仅为本次推送指定代理。当前机器检测到的代理地址如下；换机器或代理端口后应按实际情况调整：
+
+```sh
+git -c http.proxy=http://127.0.0.1:7892 push origin main
+```
+
+需要事先通过本机 Git 客户端或凭据管理器完成 GitHub 登录。不要将密码或 Token 写入项目文件。
+
+### GitHub Pages 设置
+
+这份源码使用 GitHub Pages 支持的 Jekyll 3.10 和 jekyll-sitemap，无需自定义部署工作流。仓库 Settings → Pages 中设置：
+
+- Source：**Deploy from a branch**
+- Branch：**main**
+- Folder：**/ (root)**
+
+不要选择 `_site` 或 `docs`，也不要额外添加 `.nojekyll`。从分支发布时 GitHub 会自行构建源码。
+
+推送后查看仓库 Actions 中的 Pages 构建／部署任务，成功后访问 https://mengchuli0911.github.io/ 。本地验证通过并不代表线上已部署，最终以上述任务结果为准。
+
+官方说明：https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+
 
 ## 文件结构
 
